@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+.encabezado .container{
+  background-color:  #d1f6ff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.encabezado {
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+h1{
+  font-family: "Quicksand";
+  font-weight: bold;
+  font-style: normal;
+  text-align: center;
+  font-size: 20px;
+  color:  #e27182;
+
+}
+header {
+  background-color: #d1f6ff;
+  text-align: center;
+  padding: 10px 20px;
+  position: fixed;      /* Fija el header en la pantalla */
+  width: 100%;          /* Ocupa todo el ancho de la pantalla */
+}
+nav ul { 
+  list-style: none;
+  margin-top: 15px;
+}
+nav li { /*item individual*/
+  display: inline-block;
+  margin: 0 10px;
+}
+nav a {
+  color: #2c1205;
+  font-weight: bold;
+  text-decoration: none; /*quitar el subrayado de la letra*/
+}
+nav a:hover{
+  transform: translateY(-5px); /*sube la letra al pasar mousse*/
+  color: #e27182 /*color que quiero que salga al pasar mousse*/
+}
+.menu{
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  display: flex;
+  gap: 25px; /*separa los items del menu*/
+  font-size:15px;
+}
+.agendar-boton{
+  text-decoration: none; /*quitar el subrayado de la letra*/
+  font-size:15px;
+  font-family: "Nunito", sans-serif;
+  color: #2c1205;
+
+  background-color: #FCDCE1;
+  border-radius: 10px;
+}
+.agendar-boton:hover{
+  transform: translateY(-5px); /*sube la letra al pasar mousse*/
+  color: #e27182 /*color que quiero que salga al pasar mousse*/
+}
+section {
+  padding: 40px 30px;
+  text-align: center;
+  max-width: 1000px;
+  margin: auto;
+}
+#inicio{
+  margin-top: 120px; /* Ajusta según la altura de tu header */
+  background-color: #FCDCE1
+}
+h2 {
+  font-family: "poppins", cursive;
+  font-weight: bold;
+  font-style: normal;
+ 
+}
